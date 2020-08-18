@@ -1,0 +1,42 @@
+
+body {
+  align-items: center;
+  background-color: rgba(133, 172, 184, 0.863);
+}
+.App {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+tr {
+  padding-left: 200px;
+}
+
+a {
+  color: rgb(187, 193, 202);
+  text-decoration: none;
+  height: max-content;
+  padding: 20px;
+  border: none;
+
+}
+
+.navbar-style {
+  display: flex;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  color: azure;
+  background-color: brown;
+  font-weight: 900;
+  height: fit-content;
+  border: none;
+}
+
+a:hover {
+  background-color: rgb(87, 128, 128);
+  color: aliceblue;
+}
+
+

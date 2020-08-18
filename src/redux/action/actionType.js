@@ -1,0 +1,1 @@
+export const UPDATE_CLAIM= 'UPDATE_CLAIM'

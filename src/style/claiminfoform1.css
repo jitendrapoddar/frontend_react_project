@@ -1,0 +1,118 @@
+.upper-form {
+    margin: 0;
+    padding:0;
+    display: flex;
+    padding: 30px;
+    padding-top: 50px;
+    float: left;
+}
+
+.show-panel {
+    display: block;
+}
+
+.hide-panel {
+    display: none;
+}
+
+form {
+    text-align: center;
+    flex: 1;
+    background-color: rgb(87, 128, 128);
+    width: fit-content;
+    display: flex;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+tr {
+    position: relative;
+}
+td {
+    text-align: left;
+}
+
+li {
+    display: inline-flex;
+    padding-left: 0;
+    padding: 10px;
+    justify-items: left;
+    justify-content: space-around;
+}
+
+input {
+    width: 100%;
+    position: relative;
+    background-color: rgb(141, 248, 243);
+    border: none;
+    height: 30px;
+    justify-content: space-evenly;
+}
+
+textarea {
+    background-color: rgb(141, 248, 243);
+    border: none;
+    margin: 0px;
+    width: 294px;
+    height: 108px;
+}
+label {
+    width: 200px;
+}
+
+.sub-element {
+    display:flex;
+    float: left;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-direction: row;
+    margin:0 0 5px;
+    padding-right: 50px;   
+    padding-top: 10px; 
+    width: 80%;    
+}
+.button-style {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;    
+}
+
+select {
+    display: flex;
+    position: relative;
+    background-color: rgb(141, 248, 243);
+    border: none;
+    height: 30px;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: brown;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: lightcyan;
+    align-content: center;
+    
+}
+
+footer {
+    text-align: center;
+    align-content: center;
+    padding-left: 30%;
+    padding-top: 70px;
+}
